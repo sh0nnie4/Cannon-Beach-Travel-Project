@@ -17,6 +17,35 @@ body {
 .grid-3-columns-with-first-narrow {
   grid-template-columns: 1fr 2fr 2fr;
 }
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.secondary {
+  background: #f8f8f8;
+}
+.card {
+  background: white;
+  margin: 30px 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 0 30px 10px;
+}
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #462cb3;
+  text-decoration: none;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/cannon-beach-background.jpg");
@@ -60,9 +89,12 @@ header a {
   background: white;
 }
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 80px 0;
+  padding: 100px;
+}
+.text-center {
+  text-align: center;
 }
 footer {
   background-image: linear-gradient(
@@ -102,6 +134,12 @@ main {
 }
 .img-responsive {
   max-width: 600px;
+  display: block;
+}
+.img-responsive-restaurants {
+  max-width: 354px;
+  max-height: 235px;
+  display: block;
 }
 main h2 {
   font-weight: 700;
@@ -117,6 +155,20 @@ main h3 {
   font-weight: 700;
   font-size: 40px;
   line-height: 1.5;
+  color: #272044;
+  margin: 0;
+}
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1;
+  color: #272044;
+  margin: 0;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1;
   color: #272044;
   margin: 0;
 }
@@ -140,7 +192,7 @@ main p {
     font-size: 20px;
   }
   header h3 {
-    font-size: 12px;
+    font-size: 12p x;
   }
   .grid {
     grid-template-columns: 1fr;
@@ -150,6 +202,9 @@ main p {
     padding: 30px;
   }
   .img-responsive {
+    max-width: 100%;
+  }
+  .img-responsive-restaurants {
     max-width: 100%;
   }
 }
