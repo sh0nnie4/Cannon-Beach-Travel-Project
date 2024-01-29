@@ -214,4 +214,8 @@ main p {
   .img-responsive-restaurants {
     max-width: 100%;
   }
+
+  .embed {
+    display: none;
+  }
 }
