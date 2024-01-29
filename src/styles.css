@@ -28,10 +28,17 @@ body {
   margin: 30px 0;
 }
 .card-body {
-  padding: 30px;
+  padding: 10px;
 }
 .card-footer {
   padding: 0 30px 10px;
+}
+.card-header.grid {
+  grid-gap: 0;
+}
+.embed {
+  width: 180px;
+  height: 195px;
 }
 .btn {
   display: block;
@@ -133,12 +140,12 @@ main {
   background-color: white;
 }
 .img-responsive {
-  max-width: 600px;
+  width: 100%;
   display: block;
 }
 .img-responsive-restaurants {
-  max-width: 354px;
-  max-height: 235px;
+  width: 180px;
+  height: 195px;
   display: block;
 }
 main h2 {
@@ -206,5 +213,11 @@ main p {
   }
   .img-responsive-restaurants {
     max-width: 100%;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16 / 9;
   }
 }
