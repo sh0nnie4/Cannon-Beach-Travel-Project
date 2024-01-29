@@ -199,14 +199,14 @@ main p {
     font-size: 20px;
   }
   header h3 {
-    font-size: 12p x;
+    font-size: 12px;
   }
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 5px;
   }
   section {
-    padding: 30px;
+    padding: 20px;
   }
   .img-responsive {
     max-width: 100%;
