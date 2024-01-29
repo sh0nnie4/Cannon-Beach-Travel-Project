@@ -36,6 +36,9 @@ body {
 .card-header.grid {
   grid-gap: 0;
 }
+.instagram-embeds {
+  margin: 30px 0;
+}
 .embed {
   width: 180px;
   height: 195px;
