@@ -221,4 +221,15 @@ main p {
   .img-responsive-restaurants {
     max-width: 100%;
   }
+    .card-header.grid.grid-2-columns {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    grid-gap: 10px;
+  }
+
+  .img-responsive-restaurants,
+  .embed {
+    width: 100%;
+    height: auto;
+  }
 }
